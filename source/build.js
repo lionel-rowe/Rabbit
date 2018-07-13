@@ -21,7 +21,7 @@ var js = require(__dirname + "/lang/js/js_template.js");
 var uni2json = fs.readFileSync(__dirname + "/rule/uni2zg.json","utf8");
 var zg2uni = fs.readFileSync(__dirname + "/rule/zg2uni.json","utf8");
 
-console.log("Compile Languages ...");
+console.log("Compiling...");
 
 // java.compile(uni2json,zg2uni,__dirname + "/output/java/com/comquas/rabbit/Rabbit.java");
 js.compile(uni2json,zg2uni,__dirname + "/output/javascript/rabbit.js");
