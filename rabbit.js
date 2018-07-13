@@ -793,7 +793,17 @@ function zg2uni(output) {
     {
         "from": "\u103b\u103a",
         "to": "\u103a\u103b"
+    },
+
+
+    {
+        "from": "\u1037\u103a",
+        "to": "\u103a\u1037"
     }
+
+
+
+
 ]
 ;
   return replace_with_rule(rule,output);
